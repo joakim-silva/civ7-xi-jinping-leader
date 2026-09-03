@@ -2,6 +2,8 @@
 
 A custom Xi Jinping leader mod for **Sid Meier's Civilization VII**, built as a game-modding and software development project using XML, SQL, JavaScript, localisation, custom UI assets, AI configuration, narrative content, and gameplay systems.
 
+![China civilization selection](china-civilization-select.jpg)
+
 ## About the Project
 
 This project adds **Xi Jinping as a custom playable leader** in Civilization VII.
@@ -28,11 +30,11 @@ Unlike a simple cosmetic replacement, the project required integrating a new lea
 
 ## 📸 Screenshots
 
-### Leader Selection
+### Leader & Civilization Selection
 
 ![Xi Jinping leader selection](china-selection-screen.jpg)
 
-### Leader & Civilization Selection
+### Leader Selection
 
 ![China civilization selection](china-civilization-select.jpg)
 
