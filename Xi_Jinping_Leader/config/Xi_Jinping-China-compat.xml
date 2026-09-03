@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Database>
+
+<LeaderUnlocks>
+
+    <Row
+        LeaderDomain="StandardLeaders"
+        LeaderType="LEADER_Xi_Jinping"
+        AgeDomain="StandardAges"
+        AgeType="AGE_MODERN"
+        Type="CIVILIZATION_CHINA"
+        Kind="KIND_CIVILIZATION"
+        Name="LOC_CIVILIZATION_CHINA_NAME"
+        Description="LOC_CIVILIZATION_CHINA_DESCRIPTION"
+        Icon="CIVILIZATION_CHINA"/>
+
+</LeaderUnlocks>
+
+
+<LeaderCivilizationBias>
+
+    <Row
+        CivilizationDomain="ModernAgeCivilizations"
+        CivilizationType="CIVILIZATION_CHINA"
+        LeaderDomain="StandardLeaders"
+        LeaderType="LEADER_Xi_Jinping"
+        Bias="4"
+        ReasonType="LOC_UNLOCK_PLAY_AS_Xi_Jinping_CHINA_TOOLTIP"
+        ChoiceType="LOC_CREATE_GAME_HISTORICAL_CHOICE"/>
+
+</LeaderCivilizationBias>
+
+</Database>

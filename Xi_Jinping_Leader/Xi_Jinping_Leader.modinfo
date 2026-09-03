@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="Limespace_Xi_Jinping-Leader" version="1" xmlns="ModInfo">
+
+  <Properties>
+    <Name>LOC_MODULE_Xi_Jinping_NAME</Name>
+    <Description>LOC_MODULE_Xi_Jinping_DESCRIPTION</Description>
+    <Authors>Limespace</Authors>
+    <Package>MOD</Package>
+  </Properties>
+
+
+  <!-- ============================================================ -->
+  <!-- DEPENDENCIES / REFERENCES                                    -->
+  <!-- ============================================================ -->
+
+  <Dependencies>
+    <Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+  </Dependencies>
+
+  <References>
+    <Mod id="leader-fallback" title="leader-fallback"/>
+  </References>
+
+
+  <!-- ============================================================ -->
+  <!-- ACTION CRITERIA                                              -->
+  <!-- ============================================================ -->
+
+  <ActionCriteria>
+
+    <Criteria id="always">
+      <AlwaysMet></AlwaysMet>
+    </Criteria>
+
+    <Criteria id="antiquity-age-current">
+      <AgeInUse>AGE_ANTIQUITY</AgeInUse>
+    </Criteria>
+
+    <Criteria id="exploration-age-current">
+      <AgeInUse>AGE_EXPLORATION</AgeInUse>
+    </Criteria>
+
+    <Criteria id="modern-age-current">
+      <AgeInUse>AGE_MODERN</AgeInUse>
+    </Criteria>
+
+    <Criteria id="antiquity-age-persist" any="true">
+      <AgeInUse>AGE_ANTIQUITY</AgeInUse>
+      <AgeInUse>AGE_EXPLORATION</AgeInUse>
+      <AgeInUse>AGE_MODERN</AgeInUse>
+    </Criteria>
+
+    <Criteria id="exploration-age-persist" any="true">
+      <AgeInUse>AGE_EXPLORATION</AgeInUse>
+      <AgeInUse>AGE_MODERN</AgeInUse>
+    </Criteria>
+
+    <Criteria id="modern-age-persist" any="true">
+      <AgeInUse>AGE_MODERN</AgeInUse>
+    </Criteria>
+
+    <Criteria id="leader-fallback">
+      <ModInUse>leader-fallback</ModInUse>
+    </Criteria>
+
+    <!-- Standalone China civilization compatibility -->
+    <Criteria id="china-present">
+      <ModInUse>Limespace_China-Civilization</ModInUse>
+    </Criteria>
+
+  </ActionCriteria>
+
+
+  <!-- ============================================================ -->
+  <!-- ACTION GROUPS                                                -->
+  <!-- ============================================================ -->
+
+  <ActionGroups>
+
+
+    <!-- ========================================================== -->
+    <!-- SHELL                                                      -->
+    <!-- ========================================================== -->
+
+    <ActionGroup
+      id="shell-Xi_Jinping"
+      scope="shell"
+      criteria="always">
+
+      <Actions>
+
+        <UpdateDatabase>
+          <Item>config/Xi_Jinping-config.xml</Item>
+          <Item>config/metaprogression.xml</Item>
+          <Item>config/unlockableRewards.xml</Item>
+        </UpdateDatabase>
+
+        <UpdateIcons>
+          <Item>config/Xi_Jinping-icons.xml</Item>
+        </UpdateIcons>
+
+        <ImportFiles>
+
+          <!-- Leader portraits -->
+          <Item>textures/portraits/fbl_Xi_Jinping.png</Item>
+          <Item>textures/portraits/fbl_Xi_Jinping_angry.png</Item>
+          <Item>textures/portraits/fbl_Xi_Jinping_happy.png</Item>
+          <Item>textures/portraits/fbl_Xi_Jinping_sad.png</Item>
+          <Item>textures/portraits/lsl_Xi_Jinping.png</Item>
+
+          <!-- Leader background -->
+          <Item>textures/backgrounds/bg_Leader_Xi_Jinping.png</Item>
+
+          <!-- Hex leader icons -->
+          <Item>textures/icons/leader/lp_hex_Xi_Jinping_256.png</Item>
+          <Item>textures/icons/leader/lp_hex_Xi_Jinping_256</Item>
+
+          <Item>textures/icons/leader/lp_hex_Xi_Jinping_128.png</Item>
+          <Item>textures/icons/leader/lp_hex_Xi_Jinping_128</Item>
+
+          <Item>textures/icons/leader/lp_hex_Xi_Jinping_64.png</Item>
+          <Item>textures/icons/leader/lp_hex_Xi_Jinping_64</Item>
+
+          <!-- Circular leader icons -->
+          <Item>textures/icons/leader/lp_circ_Xi_Jinping_256.png</Item>
+          <Item>textures/icons/leader/lp_circ_Xi_Jinping_256</Item>
+
+          <Item>textures/icons/leader/lp_circ_Xi_Jinping_128.png</Item>
+          <Item>textures/icons/leader/lp_circ_Xi_Jinping_128</Item>
+
+          <Item>textures/icons/leader/lp_circ_Xi_Jinping_64.png</Item>
+          <Item>textures/icons/leader/lp_circ_Xi_Jinping_64</Item>
+
+          <Item>textures/icons/leader/lp_circ_Xi_Jinping_140.png</Item>
+          <Item>textures/icons/leader/lp_circ_Xi_Jinping_140</Item>
+
+          <!-- Mood icons -->
+          <Item>textures/icons/leader/lp_hex_Xi_Jinping_angry_128.png</Item>
+          <Item>textures/icons/leader/lp_hex_Xi_Jinping_angry_128</Item>
+
+          <Item>textures/icons/leader/lp_hex_Xi_Jinping_happy_128.png</Item>
+          <Item>textures/icons/leader/lp_hex_Xi_Jinping_happy_128</Item>
+
+          <!-- Red Flag Memento -->
+          <Item>icons/mem_min_Xi_Jinping_RED_FLAG.png</Item>
+          <Item>icons/mem_min_Xi_Jinping_RED_FLAG</Item>
+
+        </ImportFiles>
+
+        <UpdateText>
+          <Item>text/ModuleText.xml</Item>
+          <Item>text/en_us/leader/LeaderCore.xml</Item>
+          <Item>text/en_us/leader/LeaderDialog_Xi_Jinping.xml</Item>
+          <Item>text/en_us/UnlockText.xml</Item>
+          <Item>text/en_us/MementoText.xml</Item>
+          <Item>text/en_us/start/UnlockableRewardsText.xml</Item>
+        </UpdateText>
+
+        <UIScripts>
+          <Item>ui/leader-register.js</Item>
+          <Item>ui/main-menu-exclude.js</Item>
+          <Item>ui/memento-unlock.js</Item>
+        </UIScripts>
+
+      </Actions>
+
+    </ActionGroup>
+
+
+    <!-- ========================================================== -->
+    <!-- GAME CORE                                                  -->
+    <!-- ========================================================== -->
+
+    <ActionGroup
+      id="base-game-Xi_Jinping"
+      scope="game"
+      criteria="always">
+
+      <Actions>
+
+        <UpdateDatabase>
+
+          <!-- Leader -->
+          <Item>data/Xi_Jinping_core/leaders.sql</Item>
+          <Item>data/Xi_Jinping_core/leaders-gameeffects.xml</Item>
+          <Item>data/Xi_Jinping_core/AI_Xi_Jinping.xml</Item>
+
+          <!-- Metaprogression -->
+          <Item>data/Xi_Jinping_progress/metaprogression.xml</Item>
+          <Item>data/Xi_Jinping_progress/metaprogression-gameeffects.xml</Item>
+
+          <!-- Memento -->
+          <Item>data/Xi_Jinping_memento/mementos.xml</Item>
+          <Item>data/Xi_Jinping_memento/mementos-gameeffects.xml</Item>
+
+          <!-- Unlocks -->
+          <Item>data/Xi_Jinping_unlock/unlocks.xml</Item>
+
+        </UpdateDatabase>
+
+        <UpdateColors>
+          <Item>data/Xi_Jinping_core/leaders-color.sql</Item>
+        </UpdateColors>
+
+        <UpdateIcons>
+          <Item>config/Xi_Jinping-icons.xml</Item>
+        </UpdateIcons>
+
+        <ImportFiles>
+
+          <!-- Leader portraits -->
+          <Item>textures/portraits/fbl_Xi_Jinping.png</Item>
+          <Item>textures/portraits/fbl_Xi_Jinping_angry.png</Item>
+          <Item>textures/portraits/fbl_Xi_Jinping_happy.png</Item>
+          <Item>textures/portraits/fbl_Xi_Jinping_sad.png</Item>
+          <Item>textures/portraits/lsl_Xi_Jinping.png</Item>
+
+          <!-- Leader background -->
+          <Item>textures/backgrounds/bg_Leader_Xi_Jinping.png</Item>
+
+          <!-- Hex leader icons -->
+          <Item>textures/icons/leader/lp_hex_Xi_Jinping_256.png</Item>
+          <Item>textures/icons/leader/lp_hex_Xi_Jinping_256</Item>
+
+          <Item>textures/icons/leader/lp_hex_Xi_Jinping_128.png</Item>
+          <Item>textures/icons/leader/lp_hex_Xi_Jinping_128</Item>
+
+          <Item>textures/icons/leader/lp_hex_Xi_Jinping_64.png</Item>
+          <Item>textures/icons/leader/lp_hex_Xi_Jinping_64</Item>
+
+          <!-- Circular leader icons -->
+          <Item>textures/icons/leader/lp_circ_Xi_Jinping_256.png</Item>
+          <Item>textures/icons/leader/lp_circ_Xi_Jinping_256</Item>
+
+          <Item>textures/icons/leader/lp_circ_Xi_Jinping_128.png</Item>
+          <Item>textures/icons/leader/lp_circ_Xi_Jinping_128</Item>
+
+          <Item>textures/icons/leader/lp_circ_Xi_Jinping_64.png</Item>
+          <Item>textures/icons/leader/lp_circ_Xi_Jinping_64</Item>
+
+          <Item>textures/icons/leader/lp_circ_Xi_Jinping_140.png</Item>
+          <Item>textures/icons/leader/lp_circ_Xi_Jinping_140</Item>
+
+          <!-- Mood icons -->
+          <Item>textures/icons/leader/lp_hex_Xi_Jinping_angry_128.png</Item>
+          <Item>textures/icons/leader/lp_hex_Xi_Jinping_angry_128</Item>
+
+          <Item>textures/icons/leader/lp_hex_Xi_Jinping_happy_128.png</Item>
+          <Item>textures/icons/leader/lp_hex_Xi_Jinping_happy_128</Item>
+
+          <!-- Red Flag Memento -->
+          <Item>icons/mem_min_Xi_Jinping_RED_FLAG.png</Item>
+          <Item>icons/mem_min_Xi_Jinping_RED_FLAG</Item>
+
+        </ImportFiles>
+
+        <UpdateText>
+          <Item>text/en_us/leader/LeaderCore.xml</Item>
+          <Item>text/en_us/leader/LeaderDialog_Xi_Jinping.xml</Item>
+          <Item>text/en_us/UnlockText.xml</Item>
+          <Item>text/en_us/MementoText.xml</Item>
+          <Item>text/en_us/start/UnlockableRewardsText.xml</Item>
+        </UpdateText>
+
+      </Actions>
+
+    </ActionGroup>
+
+
+    <!-- ========================================================== -->
+    <!-- ANTIQUITY AGE                                              -->
+    <!-- ========================================================== -->
+
+    <ActionGroup
+      id="age-antiquity-Xi_Jinping"
+      scope="game"
+      criteria="antiquity-age-current">
+
+      <Actions>
+
+        <UpdateDatabase>
+          <Item>data/Xi_Jinping_narrative/antiquity/narrative-stories-antiquity.xml</Item>
+          <Item>data/Xi_Jinping_narrative/antiquity/narrative-stories-antiquity-gameeffects.xml</Item>
+        </UpdateDatabase>
+
+        <UpdateText>
+          <Item>text/en_us/start/AdvancedStartText-exploration.xml</Item>
+          <Item>text/en_us/narrative/NarrativeStoriesText-antiquity.xml</Item>
+        </UpdateText>
+
+      </Actions>
+
+    </ActionGroup>
+
+
+    <!-- ========================================================== -->
+    <!-- EXPLORATION AGE                                            -->
+    <!-- ========================================================== -->
+
+    <ActionGroup
+      id="age-exploration-Xi_Jinping"
+      scope="game"
+      criteria="exploration-age-current">
+
+      <Actions>
+
+        <UpdateDatabase>
+          <Item>data/Xi_Jinping_agetranscard/age-transition-advanced-start-exploration.xml</Item>
+
+          <Item>data/Xi_Jinping_narrative/exploration/narrative-stories-exploration.xml</Item>
+          <Item>data/Xi_Jinping_narrative/exploration/narrative-stories-exploration-gameeffects.xml</Item>
+        </UpdateDatabase>
+
+        <UpdateText>
+          <Item>text/en_us/start/AdvancedStartText-exploration.xml</Item>
+          <Item>text/en_us/start/AdvancedStartText-modern.xml</Item>
+          <Item>text/en_us/narrative/NarrativeStoriesText-exploration.xml</Item>
+        </UpdateText>
+
+      </Actions>
+
+    </ActionGroup>
+
+
+    <!-- ========================================================== -->
+    <!-- MODERN AGE                                                 -->
+    <!-- ========================================================== -->
+
+    <ActionGroup
+      id="age-modern-Xi_Jinping"
+      scope="game"
+      criteria="modern-age-current">
+
+      <Actions>
+
+        <UpdateDatabase>
+          <Item>data/Xi_Jinping_agetranscard/age-transition-advanced-start-modern.xml</Item>
+
+          <Item>data/Xi_Jinping_narrative/modern/narrative-stories-modern.xml</Item>
+          <Item>data/Xi_Jinping_narrative/modern/narrative-stories-modern-gameeffects.xml</Item>
+        </UpdateDatabase>
+
+        <UpdateText>
+          <Item>text/en_us/start/AdvancedStartText-modern.xml</Item>
+          <Item>text/en_us/narrative/NarrativeStoriesText-modern.xml</Item>
+        </UpdateText>
+
+      </Actions>
+
+    </ActionGroup>
+
+
+    <!-- ========================================================== -->
+    <!-- AGE-PERSIST UNLOCKS                                        -->
+    <!-- ========================================================== -->
+
+    <ActionGroup
+      id="age-antiquity-persist-Xi_Jinping"
+      scope="game"
+      criteria="antiquity-age-persist">
+
+      <Actions>
+
+        <UpdateDatabase>
+          <Item>data/Xi_Jinping_unlock/unlocks-antiquity.xml</Item>
+        </UpdateDatabase>
+
+      </Actions>
+
+    </ActionGroup>
+
+
+    <ActionGroup
+      id="age-exploration-persist-Xi_Jinping"
+      scope="game"
+      criteria="exploration-age-persist">
+
+      <Actions>
+
+        <UpdateDatabase>
+          <Item>data/Xi_Jinping_unlock/unlocks-exploration.xml</Item>
+        </UpdateDatabase>
+
+      </Actions>
+
+    </ActionGroup>
+
+
+    <!-- ========================================================== -->
+    <!-- CHINA COMPATIBILITY                                      -->
+    <!-- Loads only when the standalone China mod is enabled      -->
+    <!-- ========================================================== -->
+
+    <ActionGroup
+      id="shell-Xi_Jinping-china"
+      scope="shell"
+      criteria="china-present">
+
+      <Actions>
+
+        <UpdateDatabase>
+          <Item>config/Xi_Jinping-China-compat.xml</Item>
+        </UpdateDatabase>
+
+      </Actions>
+
+    </ActionGroup>
+
+
+    <!-- ========================================================== -->
+    <!-- LEADER FALLBACK                                            -->
+    <!-- ========================================================== -->
+
+    <ActionGroup
+      id="game-fallback-Xi_Jinping"
+      scope="game"
+      criteria="leader-fallback">
+
+      <Actions>
+
+        <UIScripts>
+          <Item>ui/leader-register.js</Item>
+        </UIScripts>
+
+      </Actions>
+
+    </ActionGroup>
+
+
+  </ActionGroups>
+
+
+  <!-- ============================================================ -->
+  <!-- LOCALIZED MODULE TEXT                                        -->
+  <!-- ============================================================ -->
+
+  <LocalizedText>
+    <File>text/ModuleText.xml</File>
+  </LocalizedText>
+
+</Mod>

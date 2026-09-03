@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+
+    <!-- ============================================================ -->
+    <!-- 1200 — A NATION ENDURES                                     -->
+    <!-- ============================================================ -->
+
+
+    <!-- ============================================================ -->
+    <!-- 1200B — Sustain the Defenders                               -->
+    <!-- Land Military Units cost -2 Gold to maintain                -->
+    <!-- ============================================================ -->
+
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1200B_NARRATIVE_MODIFIER"
+        collection="COLLECTION_OWNER"
+        effect="EFFECT_PLAYER_ADJUST_UNIT_MAINTENANCE_EFFICIENCY"
+        run-once="false"
+        permanent="true">
+
+        <Argument name="Domain">
+            DOMAIN_LAND
+        </Argument>
+
+        <Argument name="Amount">
+            -2
+        </Argument>
+
+    </Modifier>
+
+
+    <!-- ============================================================ -->
+    <!-- 1200C — Support the Communities                             -->
+    <!-- All Cities gain +2 Food                                    -->
+    <!-- ============================================================ -->
+
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1200C_NARRATIVE_MODIFIER"
+        collection="COLLECTION_PLAYER_CITIES"
+        effect="EFFECT_CITY_ADJUST_YIELD"
+        run-once="false"
+        permanent="true">
+
+        <Argument name="YieldType">
+            YIELD_FOOD
+        </Argument>
+
+        <Argument name="Amount">
+            2
+        </Argument>
+
+        <Argument name="Tooltip">
+            LOC_LEADER_CHAIN_Xi_Jinping_1200C_NAME
+        </Argument>
+
+    </Modifier>
+
+
+
+    <!-- ============================================================ -->
+    <!-- 1201 — PARTNERS ACROSS THE WORLD                            -->
+    <!-- ============================================================ -->
+
+
+    <!-- ============================================================ -->
+    <!-- 1201B — Strengthen Chinese Industry -->
+    <!-- Production Buildings gain +2 Production                     -->
+    <!-- ============================================================ -->
+
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1201B_NARRATIVE_MODIFIER"
+        collection="COLLECTION_OWNER"
+        effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD"
+        run-once="false"
+        permanent="true">
+
+        <Argument name="Tag">
+            PRODUCTION
+        </Argument>
+
+        <Argument name="YieldType">
+            YIELD_PRODUCTION
+        </Argument>
+
+        <Argument name="Amount">
+            2
+        </Argument>
+
+        <Argument name="Tooltip">
+            LOC_LEADER_CHAIN_Xi_Jinping_1201B_NAME
+        </Argument>
+
+    </Modifier>
+
+
+    <!-- ============================================================ -->
+    <!-- 1201C — Build International Partnerships                    -->
+    <!-- +20% Endeavor Efficiency                                    -->
+    <!-- ============================================================ -->
+
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1201C_NARRATIVE_MODIFIER"
+        collection="COLLECTION_OWNER"
+        effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TYPE_EFFICIENCY"
+        run-once="false"
+        permanent="true">
+
+        <Argument name="ActionGroupType">
+            DIPLOMACY_ACTION_GROUP_ENDEAVOR
+        </Argument>
+
+        <Argument name="Percent">
+            20
+        </Argument>
+
+    </Modifier>
+
+
+
+    <!-- ============================================================ -->
+    <!-- 1202 — UNITED IN FREEDOM                                    -->
+    <!-- ============================================================ -->
+
+
+    <!-- ============================================================ -->
+    <!-- 1202B — Celebrate the Nation                                -->
+    <!-- Immediately enter a Celebration                             -->
+    <!-- +1 Cultural Attribute Point                                 -->
+    <!-- ============================================================ -->
+
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1202B_NARRATIVE_MODIFIER"
+        collection="COLLECTION_OWNER"
+        effect="EFFECT_PLAYER_GRANT_GOLDEN_AGE"
+        run-once="true"
+        permanent="true"/>
+
+
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1202B_NARRATIVE_MODIFIER2"
+        collection="COLLECTION_OWNER"
+        effect="EFFECT_PLAYER_ATTRIBUTE"
+        run-once="false"
+        permanent="true">
+
+        <Argument name="AttributeType">
+            ATTRIBUTE_CULTURAL
+        </Argument>
+
+        <Argument name="Amount">
+            1
+        </Argument>
+
+    </Modifier>
+
+
+    <!-- ============================================================ -->
+    <!-- 1202C — Honor the Defenders                                 -->
+    <!-- All Commanders gain 1 Promotion                             -->
+    <!-- ============================================================ -->
+
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1202C_NARRATIVE_MODIFIER"
+        collection="COLLECTION_PLAYER_UNITS"
+        effect="EFFECT_GRANT_UNIT_PROMOTION"
+        run-once="false"
+        permanent="true">
+
+        <SubjectRequirements>
+
+            <Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+
+                <Argument name="Tag">
+                    UNIT_CLASS_ARMY_COMMANDER, UNIT_CLASS_FLEET_COMMANDER
+                </Argument>
+
+            </Requirement>
+
+        </SubjectRequirements>
+
+    </Modifier>
+
+
+
+    <!-- ============================================================ -->
+    <!-- NARRATIVE REQUISITE REQUIREMENT SETS                        -->
+    <!-- ============================================================ -->
+
+    <RequirementSet
+        id="REQSET_LEADER_CHAIN_Xi_Jinping_1200A_NARRATIVE_REQUISITE">
+
+        <Requirement xref="REQ_STORY_LEADER_Xi_Jinping"/>
+
+    </RequirementSet>
+
+
+    <RequirementSet
+        id="REQSET_LEADER_CHAIN_Xi_Jinping_1201A_NARRATIVE_REQUISITE">
+
+        <Requirement xref="REQ_STORY_LEADER_Xi_Jinping"/>
+
+    </RequirementSet>
+
+
+    <RequirementSet
+        id="REQSET_LEADER_CHAIN_Xi_Jinping_1202A_NARRATIVE_REQUISITE">
+
+        <Requirement xref="REQ_STORY_LEADER_Xi_Jinping"/>
+
+    </RequirementSet>
+
+
+
+    <!-- ============================================================ -->
+    <!-- NARRATIVE TRIGGERS                                          -->
+    <!-- ============================================================ -->
+
+
+    <!-- ============================================================ -->
+    <!-- 1200A — Any City is Unhappy                                 -->
+    <!-- ============================================================ -->
+
+    <RequirementSet
+        id="REQSET_LEADER_CHAIN_Xi_Jinping_1200A_NARRATIVE">
+
+        <Requirement xref="REQ_STORY_LEADER_Xi_Jinping"/>
+
+        <Requirement type="REQUIREMENT_COLLECTION_ANY_MET">
+
+            <Argument name="CollectionType">
+                COLLECTION_PLAYER_CITIES
+            </Argument>
+
+            <Argument name="RequirementSetId">
+                SUBREQSET_LEADER_CHAIN_Xi_Jinping_1200A_NARRATIVE
+            </Argument>
+
+        </Requirement>
+
+    </RequirementSet>
+
+
+    <RequirementSet
+        id="SUBREQSET_LEADER_CHAIN_Xi_Jinping_1200A_NARRATIVE">
+
+        <Requirement type="REQUIREMENT_CITY_HAPPINESS">
+
+            <Argument name="Unhappy">
+                True
+            </Argument>
+
+        </Requirement>
+
+    </RequirementSet>
+
+
+    <!-- ============================================================ -->
+    <!-- 1201A — Meet a Civilization from a Foreign Hemisphere       -->
+    <!-- ============================================================ -->
+
+    <RequirementSet
+        id="REQSET_LEADER_CHAIN_Xi_Jinping_1201A_NARRATIVE">
+
+        <Requirement xref="REQ_STORY_LEADER_Xi_Jinping"/>
+
+        <Requirement type="REQUIREMENT_PLAYER_MET_NUM_CIVS">
+
+            <Argument name="ForeignHemisphere">
+                True
+            </Argument>
+
+        </Requirement>
+
+    </RequirementSet>
+
+
+    <!-- ============================================================ -->
+    <!-- 1202A — Own at least 5 current-Age Happiness Buildings      -->
+    <!-- ============================================================ -->
+
+    <RequirementSet
+        id="REQSET_LEADER_CHAIN_Xi_Jinping_1202A_NARRATIVE">
+
+        <Requirement xref="REQ_STORY_LEADER_Xi_Jinping"/>
+
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_BUILDINGS">
+
+            <Argument name="BuildingTag">
+                HAPPINESS
+            </Argument>
+
+            <Argument name="Amount">
+                5
+            </Argument>
+
+            <Argument name="CurrentAge">
+                True
+            </Argument>
+
+        </Requirement>
+
+    </RequirementSet>
+
+
+</GameEffects>

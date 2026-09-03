@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+
+    <!-- ============================================================ -->
+    <!-- 1300B — Rebuild Together                                     -->
+    <!-- +15% Production toward Buildings in all Cities               -->
+    <!-- ============================================================ -->
+
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1300B_NARRATIVE_MODIFIER"
+        collection="COLLECTION_PLAYER_CITIES"
+        effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_PRODUCTION"
+        run-once="false"
+        permanent="true">
+
+        <Argument name="ConstructibleClass">BUILDING</Argument>
+        <Argument name="Percent">15</Argument>
+        <Argument name="Tooltip">
+            LOC_LEADER_CHAIN_Xi_Jinping_1300B_NAME
+        </Argument>
+
+    </Modifier>
+
+
+    <!-- ============================================================ -->
+    <!-- 1300C — Restore the Communities                              -->
+    <!-- +2 Happiness in all Cities                                   -->
+    <!-- ============================================================ -->
+
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1300C_NARRATIVE_MODIFIER"
+        collection="COLLECTION_PLAYER_CITIES"
+        effect="EFFECT_CITY_ADJUST_YIELD"
+        run-once="false"
+        permanent="true">
+
+        <Argument name="YieldType">YIELD_HAPPINESS</Argument>
+        <Argument name="Amount">2</Argument>
+        <Argument name="Tooltip">
+            LOC_LEADER_CHAIN_Xi_Jinping_1300C_NAME
+        </Argument>
+
+    </Modifier>
+
+
+    <!-- ============================================================ -->
+    <!-- 1301B — Build the Coalition                                  -->
+    <!-- +10 Relationship with all Leaders                            -->
+    <!-- ============================================================ -->
+
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1301B_NARRATIVE_MODIFIER"
+        collection="COLLECTION_OWNER"
+        effect="EFFECT_GRANT_ALL_PLAYERS_FAVORS_GRIEVANCES"
+        run-once="true"
+        permanent="true">
+
+        <Argument name="FavorsAmount">10</Argument>
+        <Argument name="FavorsEventType">FAVOR_FROM_STORYLET</Argument>
+
+    </Modifier>
+
+
+    <!-- ============================================================ -->
+    <!-- 1301C — Weapons for Defense                                  -->
+    <!-- Temporary +5 Combat Strength                                  -->
+    <!-- ============================================================ -->
+
+    <!-- Temporarily grants the combat-strength ability
+         to all combat units -->
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1301C_NARRATIVE_MODIFIER"
+        collection="COLLECTION_PLAYER_UNITS"
+        effect="EFFECT_UNIT_ADJUST_ABILITY"
+        run-once="false"
+        permanent="false">
+
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_UNIT_CLASS_MATCHES">
+                <Argument name="UnitClass">UNIT_CLASS_COMBAT</Argument>
+            </Requirement>
+        </SubjectRequirements>
+
+        <Argument name="AbilityType">
+            ABILITY_Xi_Jinping_TEMP_COMBAT_STRENGTH
+        </Argument>
+
+    </Modifier>
+
+
+    <!-- Temporary combat-strength bonus: +5 -->
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1301C_NARRATIVE_COMBAT_MODIFIER"
+        collection="COLLECTION_UNIT_COMBAT"
+        effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+
+        <Argument name="Amount">5</Argument>
+
+        <String context="Preview">
+            LOC_LEADER_CHAIN_Xi_Jinping_1301C_PREVIEW
+        </String>
+
+    </Modifier>
+
+
+    <!-- ============================================================ -->
+    <!-- 1302B — Build a Modern China -->
+    <!-- +15% Science and +15% Production in all Cities               -->
+    <!-- ============================================================ -->
+
+    <!-- +15% Science in all Cities -->
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1302B_NARRATIVE_MODIFIER"
+        collection="COLLECTION_PLAYER_CITIES"
+        effect="EFFECT_CITY_ADJUST_YIELD"
+        run-once="false"
+        permanent="true">
+
+        <Argument name="YieldType">YIELD_SCIENCE</Argument>
+        <Argument name="Percent">15</Argument>
+        <Argument name="Tooltip">
+            LOC_LEADER_CHAIN_Xi_Jinping_1302B_NAME
+        </Argument>
+
+    </Modifier>
+
+
+    <!-- +15% Production in all Cities -->
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1302B_NARRATIVE_MODIFIER2"
+        collection="COLLECTION_PLAYER_CITIES"
+        effect="EFFECT_CITY_ADJUST_YIELD"
+        run-once="false"
+        permanent="true">
+
+        <Argument name="YieldType">YIELD_PRODUCTION</Argument>
+        <Argument name="Percent">15</Argument>
+        <Argument name="Tooltip">
+            LOC_LEADER_CHAIN_Xi_Jinping_1302B_NAME
+        </Argument>
+
+    </Modifier>
+
+
+    <!-- ============================================================ -->
+    <!-- 1302C — Deepen International Partnerships                    -->
+    <!-- Political Attribute / Endeavor Efficiency                    -->
+    <!-- ============================================================ -->
+
+    <!-- +1 Political Attribute Point -->
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1302C_NARRATIVE_MODIFIER"
+        collection="COLLECTION_OWNER"
+        effect="EFFECT_PLAYER_ATTRIBUTE"
+        run-once="false"
+        permanent="true">
+
+        <Argument name="AttributeType">ATTRIBUTE_POLITICAL</Argument>
+        <Argument name="Amount">1</Argument>
+
+    </Modifier>
+
+
+    <!-- +20% Endeavor diplomatic-action efficiency -->
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1302C_NARRATIVE_MODIFIER2"
+        collection="COLLECTION_OWNER"
+        effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TYPE_EFFICIENCY"
+        run-once="false"
+        permanent="true">
+
+        <Argument name="ActionGroupType">
+            DIPLOMACY_ACTION_GROUP_ENDEAVOR
+        </Argument>
+        <Argument name="Percent">20</Argument>
+
+    </Modifier>
+
+
+    <!-- ============================================================ -->
+    <!-- Narrative Requisite Requirement Sets                         -->
+    <!-- ============================================================ -->
+
+    <RequirementSet
+        id="REQSET_LEADER_CHAIN_Xi_Jinping_1300A_NARRATIVE_REQUISITE">
+
+        <Requirement xref="REQ_STORY_LEADER_Xi_Jinping"/>
+
+    </RequirementSet>
+
+
+    <RequirementSet
+        id="REQSET_LEADER_CHAIN_Xi_Jinping_1301A_NARRATIVE_REQUISITE">
+
+        <Requirement xref="REQ_STORY_LEADER_Xi_Jinping"/>
+
+    </RequirementSet>
+
+
+    <RequirementSet
+        id="REQSET_LEADER_CHAIN_Xi_Jinping_1302A_NARRATIVE_REQUISITE">
+
+        <Requirement xref="REQ_STORY_LEADER_Xi_Jinping"/>
+
+    </RequirementSet>
+
+
+    <!-- ============================================================ -->
+    <!-- Narrative Trigger Requirement Sets                           -->
+    <!-- ============================================================ -->
+
+
+    <!-- ============================================================ -->
+    <!-- 1300A — Have at least 10 Workers                             -->
+    <!-- ============================================================ -->
+
+    <RequirementSet
+        id="REQSET_LEADER_CHAIN_Xi_Jinping_1300A_NARRATIVE">
+
+        <Requirement xref="REQ_STORY_LEADER_Xi_Jinping"/>
+
+        <Requirement type="REQUIREMENT_PLAYER_HAS_X_WORKERS">
+            <Argument name="Amount">10</Argument>
+        </Requirement>
+
+    </RequirementSet>
+
+
+    <!-- ============================================================ -->
+    <!-- 1301A — Complete an Endeavor diplomatic action               -->
+    <!-- ============================================================ -->
+
+    <RequirementSet
+        id="REQSET_LEADER_CHAIN_Xi_Jinping_1301A_NARRATIVE">
+
+        <Requirement xref="REQ_STORY_LEADER_Xi_Jinping"/>
+
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+
+            <Argument name="GossipTypes">
+                GOSSIP_DIPLOMACY_ACTION_STARTED01
+            </Argument>
+
+            <Argument name="GOSSIP_DIPLOMACY_ACTION_STARTED01">
+                Hash,OtherPlayer,Other,Hash,DiplomacyActionGroup,DIPLOMACY_ACTION_GROUP_ENDEAVOR
+            </Argument>
+
+            <Argument name="AfterInit">True</Argument>
+            <Argument name="DuplicateCount">1</Argument>
+
+        </Requirement>
+
+    </RequirementSet>
+
+
+    <!-- ============================================================ -->
+    <!-- 1302A — Complete Globalism                                   -->
+    <!-- ============================================================ -->
+
+    <RequirementSet
+        id="REQSET_LEADER_CHAIN_Xi_Jinping_1302A_NARRATIVE">
+
+        <Requirement xref="REQ_STORY_LEADER_Xi_Jinping"/>
+
+        <Requirement
+            type="REQUIREMENT_PLAYER_HAS_COMPLETED_PROGRESSION_TREE_NODE">
+
+            <Argument name="ProgressionTreeNodeType">
+                NODE_CIVIC_MO_MAIN_GLOBALISM
+            </Argument>
+
+        </Requirement>
+
+    </RequirementSet>
+
+
+</GameEffects>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+<EnglishText>
+
+<Row Tag="LOC_MODULE_Xi_Jinping_NAME">
+<Text>Leader: Xi Jinping </Text>
+</Row>
+
+<Row Tag="LOC_MODULE_Xi_Jinping_DESCRIPTION">
+<Text>Adds Volodymyr Xi Jinping as a playable leader.</Text>
+</Row>
+
+</EnglishText>
+</Database>

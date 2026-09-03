@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+<EnglishText>
+
+
+<!-- ============================================================ -->
+<!-- FIRST MEETING                                                -->
+<!-- ============================================================ -->
+
+<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_LEADER_Xi_Jinping_ANY">
+<Text>I am Xi Jinping, President of the People's Republic of China. China values stability, development, and mutual respect between nations. Let us begin our relationship with cooperation and a clear understanding of our shared interests.</Text>
+</Row>
+
+
+<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_RECIPIENT_LEADER_Xi_Jinping_ANY">
+<Text>Welcome. China believes that nations can prosper through cooperation, development, and mutual respect. I hope our two civilizations can find opportunities to advance together.</Text>
+</Row>
+
+
+<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_LEADER_Xi_Jinping_ANY">
+<Text>Even at this distance from our capitals, there is value in dialogue. Great partnerships often begin with a single meeting. Let us see what our nations can achieve together.</Text>
+</Row>
+
+
+<!-- ============================================================ -->
+<!-- WAR                                                          -->
+<!-- ============================================================ -->
+
+<Row Tag="LOC_DIPLO_DECLARE_WAR_INITIATOR_LEADER_Xi_Jinping_ANY">
+<Text>We sought stability and peaceful development, but circumstances have forced another path. China will act decisively to protect its interests and secure its future.</Text>
+</Row>
+
+
+<Row Tag="LOC_DIPLO_DECLARE_WAR_RECIPIENT_LEADER_Xi_Jinping_ANY">
+<Text>You have chosen confrontation with China. Do not mistake our preference for stability as weakness. We will defend our nation and respond with determination.</Text>
+</Row>
+
+
+<!-- ============================================================ -->
+<!-- DEFEAT                                                       -->
+<!-- ============================================================ -->
+
+<Row Tag="LOC_DIPLO_DEFEAT_AI_LEADER_Xi_Jinping_ANY">
+<Text>China has endured centuries of hardship and transformation. Defeat may end my rule, but it will not erase the strength, history, or determination of the Chinese people.</Text>
+</Row>
+
+
+<!-- ============================================================ -->
+<!-- DEALS                                                        -->
+<!-- ============================================================ -->
+
+<Row Tag="LOC_DIPLO_MAKE_DEAL_ACCEPTED_LEADER_Xi_Jinping">
+<Text>Agreed. Cooperation creates opportunities for both of our nations. May this agreement bring greater stability, prosperity, and mutual benefit.</Text>
+</Row>
+
+
+<Row Tag="LOC_DIPLO_MAKE_DEAL_REJECTED_LEADER_Xi_Jinping">
+<Text>These terms do not offer sufficient benefit to China. Return with a more balanced proposal, and we may continue our discussions.</Text>
+</Row>
+
+
+<!-- ============================================================ -->
+<!-- GENERAL DIPLOMACY                                            -->
+<!-- ============================================================ -->
+
+<Row Tag="LOC_DIPLO_GREETING_LEADER_Xi_Jinping_ANY">
+<Text>Welcome. Let us discuss how our nations may move forward together.</Text>
+</Row>
+
+
+<Row Tag="LOC_DIPLO_EXIT_LEADER_Xi_Jinping_ANY">
+<Text>Then our discussion is concluded. I look forward to seeing what the future brings.</Text>
+</Row>
+
+
+<!-- ============================================================ -->
+<!-- AGENDA                                                       -->
+<!-- National Rejuvenation                                       -->
+<!-- ============================================================ -->
+
+<Row Tag="LOC_DIPLO_AGENDA_POSITIVE_LEADER_Xi_Jinping_ANY">
+<Text>Your civilization understands the importance of development, prosperity, and long-term strength. China respects those who invest in their people and prepare confidently for the future.</Text>
+</Row>
+
+
+<Row Tag="LOC_DIPLO_AGENDA_NEGATIVE_LEADER_Xi_Jinping_ANY">
+<Text>Your civilization has allowed opportunity to pass it by. A nation that neglects development and prosperity risks falling behind those willing to invest in their future.</Text>
+</Row>
+
+
+<!-- ============================================================ -->
+<!-- RELATIONSHIP                                                 -->
+<!-- ============================================================ -->
+
+<Row Tag="LOC_DIPLO_RELATIONSHIP_INCREASED_LEADER_Xi_Jinping">
+<Text>Our relationship continues to develop in a positive direction. China values reliable partners, and I hope our cooperation will bring lasting prosperity to both our nations.</Text>
+</Row>
+
+
+<Row Tag="LOC_DIPLO_RELATIONSHIP_DECREASED_LEADER_Xi_Jinping">
+<Text>Relations between our nations are becoming more difficult. China prefers cooperation, but mutual respect and consideration of our interests are necessary if trust is to continue.</Text>
+</Row>
+
+
+</EnglishText>
+</Database>

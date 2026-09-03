@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <EnglishText>
+
+
+    <!-- ============================================================ -->
+    <!-- 1200 — STRENGTH OF THE NATION                                -->
+    <!-- ============================================================ -->
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1200A_STORYTITLE">
+      <Text>Strength of the Nation</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1200A_COMPLETION">
+      <Text>China has entered an age of growing ambition and expanding responsibility. As the nation develops, the state must balance the resources required to maintain security with the needs of a growing population. Some argue that China's strength depends upon maintaining disciplined and capable armed forces. Others insist that lasting stability begins with ensuring that communities have the resources they need to prosper. Both contribute to a strong nation, but where should China's priority lie?</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1200B_NAME">
+      <Text>Strengthen the Armed Forces</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1200B_DESCRIPTION">
+      <Text>Land Military Units cost -2[icon:YIELD_GOLD] Gold to maintain.</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1200C_NAME">
+      <Text>Prosperity for the People</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1200C_DESCRIPTION">
+      <Text>All Settlements gain +2[icon:YIELD_FOOD] Food.</Text>
+    </Row>
+
+
+
+    <!-- ============================================================ -->
+    <!-- 1201 — ROUTES ACROSS THE WORLD                               -->
+    <!-- ============================================================ -->
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1201A_STORYTITLE">
+      <Text>Routes Across the World</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1201A_COMPLETION">
+      <Text>China's merchants, diplomats, and explorers are reaching ever farther beyond the country's borders. New routes connect Chinese markets with distant lands, carrying goods, knowledge, and opportunity across continents. These connections could become the foundation of a new era of prosperity. China can concentrate upon strengthening its productive capacity at home, ensuring that its industries can meet growing demand, or invest in partnerships abroad that deepen its influence and strengthen ties with other nations.</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1201B_NAME">
+      <Text>Strengthen Chinese Industry</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1201B_DESCRIPTION">
+      <Text>[icon:YIELD_PRODUCTION] Production Buildings gain +2[icon:YIELD_PRODUCTION] Production.</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1201C_NAME">
+      <Text>Build International Partnerships</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1201C_DESCRIPTION">
+      <Text>When undertaking [icon:ENDEAVOR] Endeavors, gain +20%[icon:YIELD_DIPLOMACY] Influence.</Text>
+    </Row>
+
+
+
+    <!-- ============================================================ -->
+    <!-- 1202 — NATIONAL REJUVENATION                                 -->
+    <!-- ============================================================ -->
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1202A_STORYTITLE">
+      <Text>National Rejuvenation</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1202A_COMPLETION">
+      <Text>Across China, cities flourish and a renewed sense of national purpose is taking shape. Festivals, public ceremonies, and great works celebrate the achievements of the people and the civilization they have inherited. Yet national rejuvenation can take many forms. China can emphasize the cultural traditions and shared identity that unite its people, or recognize the commanders and institutions entrusted with protecting the nation's security and safeguarding its future.</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1202B_NAME">
+      <Text>Celebrate Chinese Civilization</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1202B_DESCRIPTION">
+      <Text>Immediately enter a Celebration and gain +1[icon:ATTRIBUTE_CULTURAL] Cultural Attribute Point.</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1202C_NAME">
+      <Text>Honor the Commanders</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1202C_DESCRIPTION">
+      <Text>All [icon:COMMANDER] Commanders gain 1 Promotion.</Text>
+    </Row>
+
+
+  </EnglishText>
+</Database>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Database>
+    <IconDefinitions>
+
+        <Row>
+            <ID>LEADER_Xi_Jinping</ID>
+            <Path>fs://game/Limespace_Xi_Jinping-Leader/textures/icons/leader/lp_circ_Xi_Jinping_256</Path>
+            <Context>CIRCLE_MASK</Context>
+            <IconSize>256</IconSize>
+        </Row>
+
+        <Row>
+            <ID>LEADER_Xi_Jinping</ID>
+            <Path>fs://game/Limespace_Xi_Jinping-Leader/textures/icons/leader/lp_circ_Xi_Jinping_128</Path>
+            <Context>CIRCLE_MASK</Context>
+            <IconSize>128</IconSize>
+        </Row>
+
+        <Row>
+            <ID>LEADER_Xi_Jinping</ID>
+            <Path>fs://game/Limespace_Xi_Jinping-Leader/textures/icons/leader/lp_circ_Xi_Jinping_64</Path>
+            <Context>CIRCLE_MASK</Context>
+            <IconSize>64</IconSize>
+        </Row>
+
+        <Row>
+            <ID>LEADER_Xi_Jinping</ID>
+            <Path>fs://game/Limespace_Xi_Jinping-Leader/textures/icons/leader/lp_circ_Xi_Jinping_140</Path>
+            <Context>PORTRAIT_MASK</Context>
+            <IconSize>140</IconSize>
+        </Row>
+
+        <Row>
+            <ID>LEADER_Xi_Jinping</ID>
+            <Path>fs://game/Limespace_Xi_Jinping-Leader/textures/icons/leader/lp_circ_Xi_Jinping_128</Path>
+            <Context>PORTRAIT_MASK</Context>
+            <IconSize>128</IconSize>
+        </Row>
+
+        <Row>
+            <ID>LEADER_Xi_Jinping</ID>
+            <Path>fs://game/Limespace_Xi_Jinping-Leader/textures/icons/leader/lp_circ_Xi_Jinping_256</Path>
+            <Context>PORTRAIT_MASK</Context>
+            <IconSize>256</IconSize>
+        </Row>
+
+        <Row>
+            <ID>LEADER_Xi_Jinping</ID>
+            <Path>fs://game/Limespace_Xi_Jinping-Leader/textures/icons/leader/lp_hex_Xi_Jinping_256</Path>
+            <IconSize>256</IconSize>
+        </Row>
+
+        <Row>
+            <ID>LEADER_Xi_Jinping</ID>
+            <Path>fs://game/Limespace_Xi_Jinping-Leader/textures/icons/leader/lp_hex_Xi_Jinping_128</Path>
+            <IconSize>128</IconSize>
+        </Row>
+
+        <Row>
+            <ID>LEADER_Xi_Jinping</ID>
+            <Path>fs://game/Limespace_Xi_Jinping-Leader/textures/icons/leader/lp_hex_Xi_Jinping_64</Path>
+            <IconSize>64</IconSize>
+        </Row>
+
+        <Row>
+            <ID>LEADER_Xi_Jinping</ID>
+            <Path>fs://game/Limespace_Xi_Jinping-Leader/textures/icons/leader/lp_hex_Xi_Jinping_happy_128</Path>
+            <Context>LEADER_HAPPY</Context>
+            <IconSize>128</IconSize>
+        </Row>
+
+        <Row>
+            <ID>LEADER_Xi_Jinping</ID>
+            <Path>fs://game/Limespace_Xi_Jinping-Leader/textures/icons/leader/lp_hex_Xi_Jinping_angry_128</Path>
+            <Context>LEADER_ANGRY</Context>
+            <IconSize>128</IconSize>
+        </Row>
+
+    </IconDefinitions>
+</Database>

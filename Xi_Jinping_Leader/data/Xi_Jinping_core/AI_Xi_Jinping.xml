@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+
+  <!-- ============================================================ -->
+  <!-- Xi Jinping AI Configuration                                  -->
+  <!-- Defensive, diplomatic, and development-oriented             -->
+  <!-- ============================================================ -->
+
+  <AiListTypes>
+
+    <Row ListType="Xi_Jinping Yield Biases"/>
+    <Row ListType="Xi_Jinping Unit Biases"/>
+    <Row ListType="Xi_Jinping PseudoYield Biases"/>
+    <Row ListType="Xi_Jinping Constructible Biases"/>
+    <Row ListType="Xi_Jinping Government Biases"/>
+    <Row ListType="Xi_Jinping Budget Biases"/>
+    <Row ListType="Xi_Jinping Diplomacy Biases"/>
+    <Row ListType="Xi_Jinping Progression Biases"/>
+
+  </AiListTypes>
+
+
+  <AiLists>
+
+    <Row
+      ListType="Xi_Jinping Yield Biases"
+      LeaderType="TRAIT_LEADER_Xi_Jinping_ABILITY"
+      System="YieldBiases"/>
+
+    <Row
+      ListType="Xi_Jinping Unit Biases"
+      LeaderType="TRAIT_LEADER_Xi_Jinping_ABILITY"
+      System="UnitBiases"/>
+
+    <Row
+      ListType="Xi_Jinping PseudoYield Biases"
+      LeaderType="TRAIT_LEADER_Xi_Jinping_ABILITY"
+      System="PseudoYieldBiases"/>
+
+    <Row
+      ListType="Xi_Jinping Constructible Biases"
+      LeaderType="TRAIT_LEADER_Xi_Jinping_ABILITY"
+      System="ConstructibleBiases"/>
+
+    <Row
+      ListType="Xi_Jinping Government Biases"
+      LeaderType="TRAIT_LEADER_Xi_Jinping_ABILITY"
+      System="GovernmentBiases"/>
+
+    <Row
+      ListType="Xi_Jinping Budget Biases"
+      LeaderType="TRAIT_LEADER_Xi_Jinping_ABILITY"
+      System="AiBudgetBiases"/>
+
+    <Row
+      ListType="Xi_Jinping Diplomacy Biases"
+      LeaderType="TRAIT_LEADER_Xi_Jinping_ABILITY"
+      System="DiplomaticGroupBiases"/>
+
+    <Row
+      ListType="Xi_Jinping Progression Biases"
+      LeaderType="TRAIT_LEADER_Xi_Jinping_ABILITY"
+      System="ProgressionTreeBiases"/>
+
+  </AiLists>
+
+
+  <AiFavoredItems>
+
+    <!-- ========================================================== -->
+    <!-- Yield Biases                                              -->
+    <!-- Reconstruction, development, and diplomacy                -->
+    <!-- ========================================================== -->
+
+    <Row
+      ListType="Xi_Jinping Yield Biases"
+      Item="YIELD_PRODUCTION"
+      Value="55"/>
+
+    <Row
+      ListType="Xi_Jinping Yield Biases"
+      Item="YIELD_GOLD"
+      Value="40"/>
+
+    <Row
+      ListType="Xi_Jinping Yield Biases"
+      Item="YIELD_FOOD"
+      Value="35"/>
+
+    <Row
+      ListType="Xi_Jinping Yield Biases"
+      Item="YIELD_SCIENCE"
+      Value="45"/>
+
+    <Row
+      ListType="Xi_Jinping Yield Biases"
+      Item="YIELD_HAPPINESS"
+      Value="40"/>
+
+    <Row
+      ListType="Xi_Jinping Yield Biases"
+      Item="YIELD_CULTURE"
+      Value="30"/>
+
+    <Row
+      ListType="Xi_Jinping Yield Biases"
+      Item="YIELD_DIPLOMACY"
+      Value="50"/>
+
+
+    <!-- ========================================================== -->
+    <!-- Unit Biases                                               -->
+    <!-- Maintain capable conventional defenses                    -->
+    <!-- ========================================================== -->
+
+    <Row
+      ListType="Xi_Jinping Unit Biases"
+      Item="UNIT_WARRIOR"
+      Value="40"/>
+
+    <Row
+      ListType="Xi_Jinping Unit Biases"
+      Item="UNIT_ARCHER"
+      Value="45"/>
+
+    <Row
+      ListType="Xi_Jinping Unit Biases"
+      Item="UNIT_HORSEMAN"
+      Value="30"/>
+
+    <Row
+      ListType="Xi_Jinping Unit Biases"
+      Item="UNIT_SPEARMAN"
+      Value="45"/>
+
+
+    <!-- ========================================================== -->
+    <!-- PseudoYield Biases                                        -->
+    <!-- Territorial defense and resilient development             -->
+    <!-- ========================================================== -->
+
+    <Row
+      ListType="Xi_Jinping PseudoYield Biases"
+      Item="PSEUDOYIELD_CITY_DEFENSES"
+      Value="65"/>
+
+    <Row
+      ListType="Xi_Jinping PseudoYield Biases"
+      Item="PSEUDOYIELD_NEW_CITY"
+      Value="40"/>
+
+    <Row
+      ListType="Xi_Jinping PseudoYield Biases"
+      Item="PSEUDOYIELD_TRADITION_SLOT"
+      Value="15"/>
+
+    <Row
+      ListType="Xi_Jinping PseudoYield Biases"
+      Item="PSEUDOYIELD_GREAT_WORK"
+      Value="10"/>
+
+    <Row
+      ListType="Xi_Jinping PseudoYield Biases"
+      Item="PSEUDOYIELD_STANDING_ARMY_UNIT"
+      Value="40"/>
+
+    <Row
+      ListType="Xi_Jinping PseudoYield Biases"
+      Item="PSEUDOYIELD_GROWTH_FOOD"
+      Value="40"/>
+
+    <Row
+      ListType="Xi_Jinping PseudoYield Biases"
+      Item="PSEUDOYIELD_RESOURCE_IMPORT"
+      Value="40"/>
+
+
+    <!-- ========================================================== -->
+    <!-- Constructible Biases                                      -->
+    <!-- Development before militarization                         -->
+    <!-- ========================================================== -->
+
+    <Row
+      ListType="Xi_Jinping Constructible Biases"
+      Item="BUILDING_BARRACKS"
+      Value="45"/>
+
+    <Row
+      ListType="Xi_Jinping Constructible Biases"
+      Item="BUILDING_GRANARY"
+      Value="55"/>
+
+    <Row
+      ListType="Xi_Jinping Constructible Biases"
+      Item="BUILDING_MARKET"
+      Value="55"/>
+
+
+    <!-- ========================================================== -->
+    <!-- Government Biases                                         -->
+    <!-- ========================================================== -->
+
+    <Row
+      ListType="Xi_Jinping Government Biases"
+      Item="GOVERNMENT_DESPOTISM"
+      Value="-25"/>
+
+
+    <!-- ========================================================== -->
+    <!-- Budget Biases                                             -->
+    <!-- Reconstruction plus credible territorial defense          -->
+    <!-- ========================================================== -->
+
+    <Row
+      ListType="Xi_Jinping Budget Biases"
+      Item="AI_BUDGET_CITY_DEVELOPMENT"
+      Value="55"/>
+
+    <Row
+      ListType="Xi_Jinping Budget Biases"
+      Item="AI_BUDGET_STANDING_ARMY"
+      Value="40"/>
+
+    <Row
+      ListType="Xi_Jinping Budget Biases"
+      Item="AI_BUDGET_GARRISON"
+      Value="50"/>
+
+    <Row
+      ListType="Xi_Jinping Budget Biases"
+      Item="AI_BUDGET_EXPLORATION"
+      Value="30"/>
+
+
+    <!-- ========================================================== -->
+    <!-- Diplomatic Group Biases                                   -->
+    <!-- Coalition-building and international cooperation          -->
+    <!-- ========================================================== -->
+
+    <Row
+      ListType="Xi_Jinping Diplomacy Biases"
+      Item="DIPLOMACY_ACTION_BECOME_SUZERAIN"
+      Value="25"/>
+
+    <Row
+      ListType="Xi_Jinping Diplomacy Biases"
+      Item="DIPLOMACY_ACTION_GROUP_ENDEAVOR"
+      Value="65"/>
+
+    <Row
+      ListType="Xi_Jinping Diplomacy Biases"
+      Item="DIPLOMACY_ACTION_GROUP_SANCTION"
+      Value="25"/>
+
+    <Row
+      ListType="Xi_Jinping Diplomacy Biases"
+      Item="DIPLOMACY_ACTION_GROUP_ESPIONAGE"
+      Value="10"/>
+
+
+    <!-- ========================================================== -->
+    <!-- Progression Tree Biases                                   -->
+    <!-- Political leadership, economy, then military readiness    -->
+    <!-- ========================================================== -->
+
+    <Row
+      ListType="Xi_Jinping Progression Biases"
+      Item="TREE_ATTRIBUTE_MILITARISTIC"
+      Value="50"/>
+
+    <Row
+      ListType="Xi_Jinping Progression Biases"
+      Item="TREE_ATTRIBUTE_POLITICAL"
+      Value="85"/>
+
+    <Row
+      ListType="Xi_Jinping Progression Biases"
+      Item="TREE_ATTRIBUTE_ECONOMIC"
+      Value="60"/>
+
+  </AiFavoredItems>
+
+</Database>

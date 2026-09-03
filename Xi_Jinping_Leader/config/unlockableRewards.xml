@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Database xmlns="UnlockableRewards">
+  <Rewards>
+    <Row
+      GameItemID="MEMENTO_Xi_Jinping_RED_FLAG"
+      DNAItemID="a73f5c8e219b4d60b1e947ac36f082d5"
+      CustomData="fs://game/Xi_Jinping_Leader/icons/mem_min_Xi_Jinping_RED_FLAG"
+      Type="UNLOCKABLEREWARD_TYPE_MEMENTO"
+      Name="LOC_MEMENTO_Xi_Jinping_RED_FLAG_NAME"
+      Description="LOC_MEMENTO_Xi_Jinping_RED_FLAG_DESCRIPTION"
+      FunctionalDescription="LOC_MEMENTO_Xi_Jinping_RED_FLAG_FUNCTIONAL_DESCRIPTION"
+      SortIndex="100001"/>
+  </Rewards>
+</Database>

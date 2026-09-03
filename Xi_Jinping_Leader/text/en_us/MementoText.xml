@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <EnglishText>
+
+    <Row Tag="LOC_MEMENTO_Xi_Jinping_RED_FLAG_NAME">
+        <Text>Red Flag</Text>
+    </Row>
+
+    <Row Tag="LOC_MEMENTO_Xi_Jinping_RED_FLAG_DESCRIPTION">
+        <Text>A red flag symbolizing the People's Republic of China, national unity, and China's modern development.</Text>
+    </Row>
+
+    <Row Tag="LOC_MEMENTO_Xi_Jinping_RED_FLAG_FUNCTIONAL_DESCRIPTION">
+        <Text>+10% Gold in Cities.</Text>
+    </Row>
+
+    <Row Tag="LOC_MEMENTO_Xi_Jinping_RED_FLAG_UNLOCK_TITLE">
+        <Text>Red Flag</Text>
+    </Row>
+
+  </EnglishText>
+</Database>

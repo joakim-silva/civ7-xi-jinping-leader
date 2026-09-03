@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <EnglishText>
+
+
+    <!-- ============================================================ -->
+    <!-- 1300 — REFORM AND DEVELOPMENT                                -->
+    <!-- ============================================================ -->
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1300A_STORYTITLE">
+      <Text>Reform and Development</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1300A_COMPLETION">
+      <Text>Across China, rapid development is transforming the nation. New infrastructure connects growing cities, factories expand their production, and ambitious construction projects reshape the landscape. Yet modernization brings choices about where the benefits of growth should be directed. China can accelerate construction and industrial development, building the foundations of greater economic strength, or place greater emphasis on improving life in its cities and ensuring that prosperity is broadly shared.</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1300B_NAME">
+      <Text>Accelerate Development</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1300B_DESCRIPTION">
+      <Text>+15% Production toward Buildings in all Cities.</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1300C_NAME">
+      <Text>Prosperous Cities</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1300C_DESCRIPTION">
+      <Text>All Cities gain +2[icon:YIELD_HAPPINESS] Happiness.</Text>
+    </Row>
+
+
+    <!-- ============================================================ -->
+    <!-- 1301 — CHINA ON THE WORLD STAGE                              -->
+    <!-- ============================================================ -->
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1301A_STORYTITLE">
+      <Text>China on the World Stage</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1301A_COMPLETION">
+      <Text>China's growing economic strength has brought greater influence beyond its borders. Diplomats travel between capitals, Chinese enterprises reach new markets, and partnerships connect the nation with countries across the world. With greater influence, however, comes greater responsibility. China must decide how best to secure its position in an increasingly complex international order: through deeper diplomatic relationships and cooperation, or by ensuring that its military possesses the strength necessary to defend the nation's interests.</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1301B_NAME">
+      <Text>Strengthen Global Partnerships</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1301B_DESCRIPTION">
+      <Text>Gain +10[icon:RELATIONSHIP] Relationship with all Leaders.</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1301C_NAME">
+      <Text>Safeguard China's Interests</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1301C_DESCRIPTION">
+      <Text>All Military Units gain +5[icon:NAR_REW_COMBAT] Combat Strength for 10 turns.</Text>
+    </Row>
+
+
+    <!-- ============================================================ -->
+    <!-- 1302 — THE CHINESE DREAM                                     -->
+    <!-- ============================================================ -->
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1302A_STORYTITLE">
+      <Text>The Chinese Dream</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1302A_COMPLETION">
+      <Text>China stands at the threshold of a new era. Decades of development have transformed its cities, expanded its industries, and strengthened its connections with the wider world. The ambition of national rejuvenation now looks toward the future. China can concentrate its resources on scientific advancement, technological innovation, and productive strength at home, or deepen the international partnerships through which it seeks a greater role in shaping the world beyond its borders.</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1302B_NAME">
+      <Text>Build a Modern China</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1302B_DESCRIPTION">
+      <Text>All Cities gain +15%[icon:YIELD_SCIENCE] Science and +15%[icon:YIELD_PRODUCTION] Production.</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1302C_NAME">
+      <Text>Shape the Global Future</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1302C_DESCRIPTION">
+      <Text>Gain +1[icon:ATTRIBUTE_POLITICAL] Political Attribute Point. When undertaking [icon:ENDEAVOR] Endeavors, gain +20%[icon:YIELD_DIPLOMACY] Influence.</Text>
+    </Row>
+
+
+  </EnglishText>
+</Database>

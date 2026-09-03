@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameEffects xmlns="GameEffects">
+
+    <Requirement
+        id="REQ_STORY_LEADER_Xi_Jinping"
+        type="REQUIREMENT_PLAYER_LEADER_TYPE_MATCHES">
+        <Argument name="LeaderType">LEADER_Xi_Jinping</Argument>
+    </Requirement>
+
+
+    <!-- ============================================================ -->
+    <!-- BELT AND ROAD INITIATIVE                                     -->
+    <!-- +5 Gold and +3 Science per active Trade Route                -->
+    <!-- ============================================================ -->
+
+
+    <Modifier
+        id="MOD_Xi_Jinping_BELT_AND_ROAD_GOLD"
+        collection="COLLECTION_OWNER"
+        effect="EFFECT_PLAYER_ADJUST_YIELD_PER_NUM_TRADE_ROUTES">
+
+        <Argument name="YieldType">YIELD_GOLD</Argument>
+        <Argument name="Amount">5</Argument>
+
+        <Argument name="Tooltip">
+            LOC_TRAIT_LEADER_Xi_Jinping_ABILITY_NAME
+        </Argument>
+
+        <String context="Description">
+            LOC_TRAIT_LEADER_Xi_Jinping_ABILITY_DESCRIPTION
+        </String>
+
+    </Modifier>
+
+
+    <Modifier
+        id="MOD_Xi_Jinping_BELT_AND_ROAD_SCIENCE"
+        collection="COLLECTION_OWNER"
+        effect="EFFECT_PLAYER_ADJUST_YIELD_PER_NUM_TRADE_ROUTES">
+
+        <Argument name="YieldType">YIELD_SCIENCE</Argument>
+        <Argument name="Amount">3</Argument>
+
+        <Argument name="Tooltip">
+            LOC_TRAIT_LEADER_Xi_Jinping_ABILITY_NAME
+        </Argument>
+
+        <String context="Description">
+            LOC_TRAIT_LEADER_Xi_Jinping_ABILITY_DESCRIPTION
+        </String>
+
+    </Modifier>
+
+</GameEffects>

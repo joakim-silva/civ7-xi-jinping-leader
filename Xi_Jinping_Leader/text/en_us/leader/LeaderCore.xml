@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <EnglishText>
+
+    <!-- ============================================================ -->
+    <!-- LEADER                                                       -->
+    <!-- ============================================================ -->
+
+    <Row Tag="LOC_LEADER_Xi_Jinping_NAME">
+      <Text>Xi Jinping</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_Xi_Jinping_DESCRIPTION">
+      <Text>Xi Jinping is a Chinese political leader who has served as General Secretary of the Chinese Communist Party since 2012 and President of the People's Republic of China since 2013. His leadership has emphasized national development, state capacity, technological advancement, economic modernization, and a more prominent role for China in global affairs.</Text>
+    </Row>
+
+
+    <!-- ============================================================ -->
+    <!-- LEADER ABILITY                                               -->
+    <!-- ============================================================ -->
+
+    <Row Tag="LOC_TRAIT_LEADER_Xi_Jinping_ABILITY_NAME">
+    <Text>Belt and Road Initiative</Text>
+</Row>
+
+<Row Tag="LOC_TRAIT_LEADER_Xi_Jinping_ABILITY_DESCRIPTION">
+    <Text>Gain +5 Gold and +3 Science for each active Trade Route.</Text>
+</Row>
+
+
+    <!-- ============================================================ -->
+    <!-- AGENDA                                                       -->
+    <!-- ============================================================ -->
+
+    <Row Tag="LOC_AGENDA_LEADER_Xi_Jinping_NAME">
+      <Text>National Rejuvenation</Text>
+    </Row>
+
+    <Row Tag="LOC_AGENDA_LEADER_Xi_Jinping_DESCRIPTION">
+      <Text>Respects civilizations that develop prosperous cities, strengthen their economies, and expand their influence. Dislikes civilizations that neglect their development and fall behind their rivals.</Text>
+    </Row>
+
+    <Row Tag="LOC_AGENDA_LEADER_Xi_Jinping_DESCRIPTION_LIKES">
+      <Text>Likes civilizations that build strong economies, develop their cities, and expand their influence.</Text>
+    </Row>
+
+    <Row Tag="LOC_AGENDA_LEADER_Xi_Jinping_DESCRIPTION_DISLIKES">
+      <Text>Dislikes civilizations that neglect their economy and fail to develop their cities.</Text>
+    </Row>
+
+
+    <!-- ============================================================ -->
+    <!-- LEADER INTRODUCTION                                          -->
+    <!-- ============================================================ -->
+
+    <Row Tag="LOC_LEADER_Xi_Jinping_QUOTE">
+      <Text>President Xi Jinping, China has endured across millennia, shaped by ancient traditions, great dynasties, and the ambitions of generations. From the heartland of the Yellow River to the great cities of the modern age, China stands ready to pursue prosperity and national rejuvenation. Develop your cities, advance science and industry, strengthen the state, and extend China's influence across the world. Will you lead China toward a new era of prosperity and secure its place among the greatest civilizations in history?</Text>
+    </Row>
+
+    <Row Tag="LOC_LOADING_LEADER_INTRO_TEXT_Xi_Jinping">
+      <Text>President Xi Jinping, China has endured across millennia, shaped by ancient traditions, great dynasties, and the ambitions of generations. From the heartland of the Yellow River to the great cities of the modern age, China stands ready to pursue prosperity and national rejuvenation. Develop your cities, advance science and industry, strengthen the state, and extend China's influence across the world. Will you lead China toward a new era of prosperity and secure its place among the greatest civilizations in history?</Text>
+    </Row>
+
+    <Row Tag="LOC_MAIN_CHAR_SELECT_LEADER_Xi_Jinping_ANY">
+      <Text>Let us work together toward prosperity and a shared future.</Text>
+    </Row>
+
+
+    <!-- ============================================================ -->
+    <!-- CIVILOPEDIA HISTORY                                          -->
+    <!-- ============================================================ -->
+
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_Xi_Jinping_CHAPTER_HISTORY_PARA_1">
+      <Text>Xi Jinping was born on June 15, 1953, in Beijing, China. The son of revolutionary veteran Xi Zhongxun, he spent part of his youth in rural Shaanxi during the Cultural Revolution. Xi later studied at Tsinghua University and gradually advanced through a series of political and administrative positions at the local, provincial, and national levels.</Text>
+    </Row>
+
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_Xi_Jinping_CHAPTER_HISTORY_PARA_2">
+      <Text>Xi Jinping became General Secretary of the Chinese Communist Party in 2012 and President of the People's Republic of China in 2013. His leadership has been associated with stronger centralized authority, anti-corruption campaigns, economic and technological development, military modernization, and an increased emphasis on China's role as a major global power.</Text>
+    </Row>
+
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_Xi_Jinping_CHAPTER_HISTORY_PARA_3">
+      <Text>Under Xi Jinping, China has pursued ambitious domestic and international initiatives, including the Belt and Road Initiative, expanded investment in infrastructure and advanced technology, and a more prominent role in international diplomacy. His tenure has also been marked by tighter political and social controls, increased emphasis on Communist Party leadership, and significant debate internationally over China's domestic policies and growing global influence.</Text>
+    </Row>
+
+
+  </EnglishText>
+</Database>

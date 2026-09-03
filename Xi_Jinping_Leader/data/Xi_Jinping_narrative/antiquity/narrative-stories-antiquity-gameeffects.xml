@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+
+    <!-- ============================================================ -->
+    <!-- 1100 — MANDATE OF HEAVEN -->
+    <!-- ============================================================ -->
+
+
+    <!-- ============================================================ -->
+    <!-- 1100B — A Symbol of Our Nation                              -->
+    <!-- Palace gains +3 Culture                                     -->
+    <!-- ============================================================ -->
+
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1100B_NARRATIVE_MODIFIER"
+        collection="COLLECTION_OWNER"
+        effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD"
+        run-once="false"
+        permanent="true">
+
+        <Argument name="ConstructibleType">
+            BUILDING_PALACE
+        </Argument>
+
+        <Argument name="YieldType">
+            YIELD_CULTURE
+        </Argument>
+
+        <Argument name="Amount">
+            3
+        </Argument>
+
+    </Modifier>
+
+
+    <!-- ============================================================ -->
+    <!-- 1100C — Land of Our Ancestors                               -->
+    <!-- +1 Culture and +1 Happiness in all Cities                   -->
+    <!-- ============================================================ -->
+
+
+    <!-- +1 Culture in all Cities -->
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1100C_NARRATIVE_MODIFIER"
+        collection="COLLECTION_PLAYER_CITIES"
+        effect="EFFECT_CITY_ADJUST_YIELD"
+        run-once="false"
+        permanent="true">
+
+        <Argument name="YieldType">
+            YIELD_CULTURE
+        </Argument>
+
+        <Argument name="Amount">
+            1
+        </Argument>
+
+        <Argument name="Tooltip">
+            LOC_LEADER_CHAIN_Xi_Jinping_1100C_NAME
+        </Argument>
+
+    </Modifier>
+
+
+    <!-- +1 Happiness in all Cities -->
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1100C_NARRATIVE_MODIFIER2"
+        collection="COLLECTION_PLAYER_CITIES"
+        effect="EFFECT_CITY_ADJUST_YIELD"
+        run-once="false"
+        permanent="true">
+
+        <Argument name="YieldType">
+            YIELD_HAPPINESS
+        </Argument>
+
+        <Argument name="Amount">
+            1
+        </Argument>
+
+        <Argument name="Tooltip">
+            LOC_LEADER_CHAIN_Xi_Jinping_1100C_NAME
+        </Argument>
+
+    </Modifier>
+
+
+
+    <!-- ============================================================ -->
+    <!-- 1101 — THE BREADBASKET                                      -->
+    <!-- ============================================================ -->
+
+
+    <!-- ============================================================ -->
+    <!-- 1101B — Build for the Future                                -->
+    <!-- +15% Production toward Buildings                            -->
+    <!-- Buildings cost +1 Happiness to maintain                     -->
+    <!-- ============================================================ -->
+
+
+    <!-- +15% Production toward Buildings -->
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1101B_NARRATIVE_MODIFIER"
+        collection="COLLECTION_PLAYER_CITIES"
+        effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_PRODUCTION"
+        run-once="false"
+        permanent="true">
+
+        <Argument name="ConstructibleClass">
+            BUILDING
+        </Argument>
+
+        <Argument name="Percent">
+            15
+        </Argument>
+
+        <Argument name="Tooltip">
+            LOC_LEADER_CHAIN_Xi_Jinping_1101B_NAME
+        </Argument>
+
+    </Modifier>
+
+
+    <!-- Buildings cost +1 Happiness to maintain -->
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1101B_NARRATIVE_MODIFIER2"
+        collection="COLLECTION_PLAYER_CITIES"
+        effect="EFFECT_CITY_ADJUST_SPECIFIC_CONSTRUCTIBLE_MAINTENANCE"
+        run-once="false"
+        permanent="true">
+
+        <Argument name="ConstructibleClass">
+            BUILDING
+        </Argument>
+
+        <Argument name="YieldType">
+            YIELD_HAPPINESS
+        </Argument>
+
+        <Argument name="Amount">
+            1
+        </Argument>
+
+        <Argument name="Tooltip">
+            LOC_LEADER_CHAIN_Xi_Jinping_1101B_NAME
+        </Argument>
+
+    </Modifier>
+
+
+    <!-- ============================================================ -->
+    <!-- 1101C — Prosperous Communities                              -->
+    <!-- Buildings cost -1 Happiness to maintain                    -->
+    <!-- ============================================================ -->
+
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1101C_NARRATIVE_MODIFIER"
+        collection="COLLECTION_PLAYER_CITIES"
+        effect="EFFECT_CITY_ADJUST_SPECIFIC_CONSTRUCTIBLE_MAINTENANCE"
+        run-once="false"
+        permanent="true">
+
+        <Argument name="ConstructibleClass">
+            BUILDING
+        </Argument>
+
+        <Argument name="YieldType">
+            YIELD_HAPPINESS
+        </Argument>
+
+        <Argument name="Amount">
+            -1
+        </Argument>
+
+        <Argument name="Tooltip">
+            LOC_LEADER_CHAIN_Xi_Jinping_1101C_NAME
+        </Argument>
+
+    </Modifier>
+
+
+
+    <!-- ============================================================ -->
+    <!-- 1102 — DEFEND THE HOMELAND                                  -->
+    <!-- ============================================================ -->
+
+
+    <!-- ============================================================ -->
+    <!-- 1102B — Mobilize the Nation                                 -->
+    <!-- Nearest Settlement receives an Infantry Unit                -->
+    <!-- +15% Production toward Infantry Units                       -->
+    <!-- ============================================================ -->
+
+
+    <!-- Nearest Settlement receives 1 Infantry Unit -->
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1102B_NARRATIVE_MODIFIER"
+        collection="COLLECTION_OWNER_CITY_NEAREST_STORY"
+        effect="EFFECT_CITY_GRANT_UNIT"
+        run-once="true"
+        permanent="true">
+
+        <Argument name="UnitTag">
+            UNIT_CLASS_INFANTRY
+        </Argument>
+
+        <Argument name="Amount">
+            1
+        </Argument>
+
+    </Modifier>
+
+
+    <!-- +15% Production toward Infantry Units -->
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1102B_NARRATIVE_MODIFIER2"
+        collection="COLLECTION_PLAYER_CITIES"
+        effect="EFFECT_CITY_ADJUST_UNIT_PRODUCTION"
+        run-once="false"
+        permanent="true">
+
+        <Argument name="UnitClass">
+            UNIT_CLASS_INFANTRY
+        </Argument>
+
+        <Argument name="Percent">
+            15
+        </Argument>
+
+        <Argument name="Tooltip">
+            LOC_LEADER_CHAIN_Xi_Jinping_1102B_NAME
+        </Argument>
+
+    </Modifier>
+
+
+    <!-- ============================================================ -->
+    <!-- 1102C — Fortify the Cities                                  -->
+    <!-- +25% Production toward Ancient Walls                        -->
+    <!-- 3 free Ancient Wall purchases                               -->
+    <!-- ============================================================ -->
+
+
+    <!-- +25% Production toward Ancient Walls -->
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1102C_NARRATIVE_MODIFIER"
+        collection="COLLECTION_PLAYER_CITIES"
+        effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_PRODUCTION"
+        run-once="false"
+        permanent="true">
+
+        <Argument name="ConstructibleType">
+            BUILDING_ANCIENT_WALLS
+        </Argument>
+
+        <Argument name="Percent">
+            25
+        </Argument>
+
+        <Argument name="Tooltip">
+            LOC_LEADER_CHAIN_Xi_Jinping_1102C_NAME
+        </Argument>
+
+    </Modifier>
+
+
+    <!-- Grants 3 free purchases of Ancient Walls -->
+    <Modifier
+        id="LEADER_CHAIN_Xi_Jinping_1102C_NARRATIVE_MODIFIER2"
+        collection="COLLECTION_OWNER"
+        effect="EFFECT_PLAYER_GRANT_FREE_PURCHASE_CHARGE"
+        run-once="true"
+        permanent="true">
+
+        <Argument name="BuildingType">
+            BUILDING_ANCIENT_WALLS
+        </Argument>
+
+        <Argument name="Amount">
+            3
+        </Argument>
+
+    </Modifier>
+
+
+
+    <!-- ============================================================ -->
+    <!-- NARRATIVE REQUISITE REQUIREMENT SETS                        -->
+    <!-- ============================================================ -->
+
+
+    <!-- 1100 -->
+    <RequirementSet
+        id="REQSET_LEADER_CHAIN_Xi_Jinping_1100A_NARRATIVE_REQUISITE">
+
+        <Requirement xref="REQ_STORY_LEADER_Xi_Jinping"/>
+
+    </RequirementSet>
+
+
+    <!-- 1101 -->
+    <RequirementSet
+        id="REQSET_LEADER_CHAIN_Xi_Jinping_1101A_NARRATIVE_REQUISITE">
+
+        <Requirement xref="REQ_STORY_LEADER_Xi_Jinping"/>
+
+    </RequirementSet>
+
+
+    <!-- 1102 -->
+    <RequirementSet
+        id="REQSET_LEADER_CHAIN_Xi_Jinping_1102A_NARRATIVE_REQUISITE">
+
+        <Requirement xref="REQ_STORY_LEADER_Xi_Jinping"/>
+
+    </RequirementSet>
+
+
+
+    <!-- ============================================================ -->
+    <!-- NARRATIVE TRIGGER REQUIREMENT SETS                          -->
+    <!-- ============================================================ -->
+
+
+    <!-- ============================================================ -->
+    <!-- 1100A — Improve a Natural Wonder                            -->
+    <!-- ============================================================ -->
+
+    <RequirementSet
+        id="REQSET_LEADER_CHAIN_Xi_Jinping_1100A_NARRATIVE">
+
+        <Requirement xref="REQ_STORY_LEADER_Xi_Jinping"/>
+
+        <Requirement
+            type="REQUIREMENT_PLAYER_IMPROVED_X_NATURAL_WONDERS">
+
+            <Argument name="PercentageThreshold">
+                1
+            </Argument>
+
+            <Argument name="ExcludeOcean">
+                false
+            </Argument>
+
+        </Requirement>
+
+    </RequirementSet>
+
+
+    <!-- ============================================================ -->
+    <!-- 1101A — Own at least 3 Granaries                            -->
+    <!-- ============================================================ -->
+
+    <RequirementSet
+        id="REQSET_LEADER_CHAIN_Xi_Jinping_1101A_NARRATIVE">
+
+        <Requirement xref="REQ_STORY_LEADER_Xi_Jinping"/>
+
+        <Requirement
+            type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_BUILDINGS">
+
+            <Argument name="BuildingType">
+                BUILDING_GRANARY
+            </Argument>
+
+            <Argument name="Amount">
+                3
+            </Argument>
+
+        </Requirement>
+
+    </RequirementSet>
+
+
+    <!-- ============================================================ -->
+    <!-- 1102A — Be at war with at least one Major Civilization      -->
+    <!-- ============================================================ -->
+
+    <RequirementSet
+        id="REQSET_LEADER_CHAIN_Xi_Jinping_1102A_NARRATIVE">
+
+        <Requirement xref="REQ_STORY_LEADER_Xi_Jinping"/>
+
+        <Requirement
+            type="REQUIREMENT_PLAYER_IS_AT_PEACE_WITH_ALL_MAJORS"
+            inverse="true"/>
+
+    </RequirementSet>
+
+
+</GameEffects>

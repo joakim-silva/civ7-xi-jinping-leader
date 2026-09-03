@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <EnglishText>
+
+
+    <!-- ============================================================ -->
+    <!-- 1100 — MANDATE OF HEAVEN                                    -->
+    <!-- ============================================================ -->
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1100A_STORYTITLE">
+      <Text>Mandate of Heaven</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1100A_COMPLETION">
+      <Text>Across the vast lands of China, communities look toward the center for order, stability, and purpose. For generations, rulers have understood that authority must be sustained not only through strength, but through prosperity and the confidence of the people. As the realm grows, a question emerges about what should bind its people together. Should the state invest in institutions that embody China's shared culture, or ensure that prosperity and harmony reach every city?</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1100B_NAME">
+      <Text>Strengthen the State</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1100B_DESCRIPTION">
+      <Text>The Palace gains +3[icon:YIELD_CULTURE] Culture.</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1100C_NAME">
+      <Text>Harmony Under Heaven</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1100C_DESCRIPTION">
+      <Text>All Cities gain +1[icon:YIELD_CULTURE] Culture and +1[icon:YIELD_HAPPINESS] Happiness.</Text>
+    </Row>
+
+
+    <!-- ============================================================ -->
+    <!-- 1101 — PROSPERITY OF THE REALM                               -->
+    <!-- ============================================================ -->
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1101A_STORYTITLE">
+      <Text>Prosperity of the Realm</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1101A_COMPLETION">
+      <Text>China's settlements are expanding, markets are flourishing, and ambitious works of construction are transforming the landscape. New workshops, administrative centers, and public buildings promise to strengthen the foundations of the realm. Yet rapid development brings its own pressures. China can push forward with an ambitious program of construction, accepting the burden that such growth places upon its communities, or pursue a more measured path that places stability and everyday prosperity first.</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1101B_NAME">
+      <Text>Build for the Future</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1101B_DESCRIPTION">
+      <Text>Gain +15%[icon:YIELD_PRODUCTION] Production toward Buildings. Buildings cost +1[icon:YIELD_HAPPINESS] Happiness to maintain.</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1101C_NAME">
+      <Text>Prosperity for the People</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1101C_DESCRIPTION">
+      <Text>Buildings cost -1[icon:YIELD_HAPPINESS] Happiness to maintain.</Text>
+    </Row>
+
+
+    <!-- ============================================================ -->
+    <!-- 1102 — DEFEND THE REALM                                      -->
+    <!-- ============================================================ -->
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1102A_STORYTITLE">
+      <Text>Defend the Realm</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1102A_COMPLETION">
+      <Text>War threatens the stability of the realm. Along China's frontiers, commanders prepare their forces while cities strengthen their defenses against the possibility of attack. The state must decide how best to protect its people and preserve order. Some call for rapid mobilization and a larger army capable of meeting the enemy in the field. Others argue that China's cities must become fortified strongholds able to withstand whatever dangers reach their walls.</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1102B_NAME">
+      <Text>Mobilize the Nation</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1102B_DESCRIPTION">
+      <Text>The nearest Settlement receives 1 [icon:UNIT_WARRIOR] Infantry Unit. Gain +15%[icon:YIELD_PRODUCTION] Production toward Infantry Units.</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1102C_NAME">
+      <Text>Fortify the Cities</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_CHAIN_Xi_Jinping_1102C_DESCRIPTION">
+      <Text>Gain +25%[icon:YIELD_PRODUCTION] Production toward [icon:BUILDING_ANCIENT_WALLS] Ancient Walls. Purchase up to 3 Ancient Walls for free.</Text>
+    </Row>
+
+
+  </EnglishText>
+</Database>

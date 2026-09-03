@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+
+    <Leaders>
+        <Row
+            LeaderType="LEADER_Xi_Jinping"
+            LeaderName="LOC_LEADER_Xi_Jinping_NAME"
+            LeaderDescription="LOC_LEADER_Xi_Jinping_DESCRIPTION"
+            LeaderIcon="LEADER_Xi_Jinping"
+            LeaderIntroText="LOC_LOADING_LEADER_INTRO_TEXT_Xi_Jinping"/>
+    </Leaders>
+
+    <LeaderItems>
+        <Row
+            LeaderType="LEADER_Xi_Jinping"
+            Type="TRAIT_LEADER_Xi_Jinping_ABILITY"
+            Kind="KIND_TRAIT"
+            Name="LOC_TRAIT_LEADER_Xi_Jinping_ABILITY_NAME"
+            Description="LOC_TRAIT_LEADER_Xi_Jinping_ABILITY_DESCRIPTION"/>
+    </LeaderItems>
+
+<LeaderTags>
+    <Row LeaderType="LEADER_Xi_Jinping"
+         TagType="TAG_TRAIT_ECONOMIC"/>
+
+    <Row LeaderType="LEADER_Xi_Jinping"
+         TagType="TAG_TRAIT_POLITICAL"/>
+
+    <Row LeaderType="LEADER_Xi_Jinping"
+         TagType="TAG_GENDER_MALE"/>
+
+    <Row LeaderType="LEADER_Xi_Jinping"
+         TagType="TAG_ORIGIN_ASIA_EAST"/>
+</LeaderTags>
+
+    <LeaderQuotes>
+        <Row
+            LeaderType="LEADER_Xi_Jinping"
+            Quote="LOC_MAIN_CHAR_SELECT_LEADER_Xi_Jinping_ANY"/>
+    </LeaderQuotes>
+        <LeaderCivilizationBias>
+
+        <!-- ANTIQUITY -->
+
+        <Row
+            CivilizationDomain="AntiquityAgeCivilizations"
+            CivilizationType="CIVILIZATION_GREECE"
+            LeaderDomain="StandardLeaders"
+            LeaderType="LEADER_Xi_Jinping"
+            Bias="3"
+            ReasonType="LOC_UNLOCK_PLAY_AS_Xi_Jinping_GREECE_TOOLTIP"
+            ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE"/>
+
+        <Row
+            CivilizationDomain="AntiquityAgeCivilizations"
+            CivilizationType="CIVILIZATION_ROME"
+            LeaderDomain="StandardLeaders"
+            LeaderType="LEADER_Xi_Jinping"
+            Bias="2"
+            ReasonType="LOC_UNLOCK_PLAY_AS_Xi_Jinping_ROME_TOOLTIP"
+            ChoiceType="LOC_CREATE_GAME_STRATEGIC_CHOICE"/>
+
+
+        <!-- EXPLORATION -->
+
+        <Row
+            CivilizationDomain="ExplorationAgeCivilizations"
+            CivilizationType="CIVILIZATION_MONGOLIA"
+            LeaderDomain="StandardLeaders"
+            LeaderType="LEADER_Xi_Jinping"
+            Bias="3"
+            ReasonType="LOC_UNLOCK_PLAY_AS_Xi_Jinping_MONGOLIA_TOOLTIP"
+            ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE"/>
+
+        <Row
+            CivilizationDomain="ExplorationAgeCivilizations"
+            CivilizationType="CIVILIZATION_NORMAN"
+            LeaderDomain="StandardLeaders"
+            LeaderType="LEADER_Xi_Jinping"
+            Bias="2"
+            ReasonType="LOC_UNLOCK_PLAY_AS_Xi_Jinping_NORMAN_TOOLTIP"
+            ChoiceType="LOC_CREATE_GAME_STRATEGIC_CHOICE"/>
+
+    </LeaderCivilizationBias>
+
+<Mementos>
+    <Row
+        Type="MEMENTO_Xi_Jinping_RED_FLAG"
+        Name="LOC_MEMENTO_Xi_Jinping_RED_FLAG_NAME"
+        Description="LOC_MEMENTO_Xi_Jinping_RED_FLAG_DESCRIPTION"
+        FunctionalDescription="LOC_MEMENTO_Xi_Jinping_RED_FLAG_FUNCTIONAL_DESCRIPTION"
+        UnlockTitle="LOC_MEMENTO_Xi_Jinping_RED_FLAG_UNLOCK_TITLE"
+        Tag="LOC_ATTRIBUTE_ECONOMIC"/>
+</Mementos>
+
+</Database>

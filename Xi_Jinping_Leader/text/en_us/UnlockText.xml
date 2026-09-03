@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+<EnglishText>
+
+<Row Tag="LOC_UNLOCK_PLAY_AS_Xi_Jinping_NAME">
+    <Text>Play as Xi Jinping</Text>
+</Row>
+
+<Row Tag="LOC_UNLOCK_PLAY_AS_Xi_Jinping_DESCRIPTION">
+    <Text>Play as [B]{LOC_LEADER_Xi_Jinping_NAME}[/B]</Text>
+</Row>
+
+<Row Tag="LOC_UNLOCK_PLAY_AS_Xi_Jinping_CHINA_TOOLTIP">
+    <Text>Xi Jinping is the historical leader of China.</Text>
+</Row>
+
+<Row Tag="LOC_UNLOCK_PLAY_AS_Xi_Jinping_GREECE_TOOLTIP">
+    <Text>Greece represents the western reaches of the ancient trade networks that connected China with the Mediterranean world.</Text>
+</Row>
+
+<Row Tag="LOC_UNLOCK_PLAY_AS_Xi_Jinping_ROME_TOOLTIP">
+    <Text>Rome represents a powerful centralized state and the western terminus of the great Eurasian trade routes that connected the Mediterranean world with China.</Text>
+</Row>
+
+<Row Tag="LOC_UNLOCK_PLAY_AS_Xi_Jinping_MONGOLIA_TOOLTIP">
+    <Text>Mongolia represents China's deep geographic and historical connections with the peoples of Inner Asia and the Eurasian steppe.</Text>
+</Row>
+
+<Row Tag="LOC_UNLOCK_PLAY_AS_Xi_Jinping_NORMAN_TOOLTIP">
+    <Text>Norman represents strong state-building, economic ambition, and the projection of influence beyond its traditional borders.</Text>
+</Row>
+
+</EnglishText>
+</Database>

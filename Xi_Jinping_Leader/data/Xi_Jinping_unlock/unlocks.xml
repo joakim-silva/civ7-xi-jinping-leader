@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <Types>
+    <InsertOrIgnore Type="UNLOCK_LEGEND_LEVEL_4_Xi_Jinping" Kind="KIND_UNLOCK"/>
+    <InsertOrIgnore Type="UNLOCK_LEGEND_LEVEL_8_Xi_Jinping" Kind="KIND_UNLOCK"/>
+  </Types>
+  <Unlocks>
+    <InsertOrIgnore UnlockType="UNLOCK_LEGEND_LEVEL_4_Xi_Jinping"/>
+    <InsertOrIgnore UnlockType="UNLOCK_LEGEND_LEVEL_8_Xi_Jinping"/>
+  </Unlocks>
+  <UnlockRewards>
+  </UnlockRewards>
+  <RequirementSets>
+    <InsertOrIgnore RequirementSetId="REQSET_LEADER_IS_Xi_Jinping" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+    <Row RequirementSetId="REQSET_LEGEND_LEVEL_4_Xi_Jinping" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+    <Row RequirementSetId="REQSET_LEGEND_LEVEL_8_Xi_Jinping" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+  </RequirementSets>
+  <Requirements>
+    <InsertOrIgnore RequirementId="REQ_LEADER_IS_Xi_Jinping" RequirementType="REQUIREMENT_PLAYER_LEADER_TYPE_MATCHES"/>
+    <Row RequirementId="REQ_LEGEND_LEVEL_4_Xi_Jinping" RequirementType="REQUIREMENT_PLAYER_LEADER_TYPE_MATCHES"/>
+    <Row RequirementId="REQ_LEGEND_LEVEL_8_Xi_Jinping" RequirementType="REQUIREMENT_PLAYER_LEADER_TYPE_MATCHES"/>
+  </Requirements>
+  <RequirementArguments>
+    <InsertOrIgnore RequirementId="REQ_LEADER_IS_Xi_Jinping" Name="LeaderType" Value="LEADER_Xi_Jinping"/>
+    <Row RequirementId="REQ_LEGEND_LEVEL_4_Xi_Jinping" Name="LeaderType" Value="LEADER_Xi_Jinping"/>
+    <Row RequirementId="REQ_LEGEND_LEVEL_8_Xi_Jinping" Name="LeaderType" Value="LEADER_Xi_Jinping"/>
+  </RequirementArguments>
+  <RequirementSetRequirements>
+    <InsertOrIgnore RequirementSetId="REQSET_LEADER_IS_Xi_Jinping" RequirementId="REQ_LEADER_IS_Xi_Jinping"/>
+    <Row RequirementSetId="REQSET_LEGEND_LEVEL_4_Xi_Jinping" RequirementId="REQ_LEGEND_LEVEL_4_Xi_Jinping"/>
+    <Row RequirementSetId="REQSET_LEGEND_LEVEL_8_Xi_Jinping" RequirementId="REQ_LEGEND_LEVEL_8_Xi_Jinping"/>
+  </RequirementSetRequirements>
+  <UnlockRequirements>
+    <InsertOrIgnore UnlockType="UNLOCK_LEGEND_LEVEL_4_Xi_Jinping" RequirementSetId="REQSET_LEGEND_LEVEL_4_Xi_Jinping" Description=""/>
+  </UnlockRequirements>
+</Database>
