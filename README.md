@@ -26,6 +26,28 @@ Unlike a simple cosmetic replacement, the project required integrating a new lea
 - Unlockable reward support
 - Compatibility configuration for the Modern China civilization
 
+## 📸 Screenshots
+
+### Leader Selection
+
+![Xi Jinping leader selection](china-selection-screen.jpg)
+
+### Leader & Civilization Selection
+
+![China civilization selection](china-civilization-select.jpg)
+
+### In-Game
+
+![Xi Jinping and Modern China gameplay](china-gameplay.jpg)
+
+### Leader Portrait
+
+![Xi Jinping leader portrait](xi-jinping.jpg)
+
+### Custom Memento
+
+![Xi Jinping custom memento](china-memento.jpg)
+
 ## Technologies & Skills
 
 | Area | Technologies / Skills |
